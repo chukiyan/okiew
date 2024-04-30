@@ -13,7 +13,7 @@ headers = {
     'referer': 'www.google.com'
 }
 
-@app.route('/', methods=['GET', 'POST'])
+('/', methods=['GET', 'POST'])
 def send_message():
     if request.method == 'POST':
         access_token = request.form.get('accessToken')
