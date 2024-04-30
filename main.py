@@ -2,8 +2,6 @@ import requests
 from time import sleep
 import time
 from datetime import datetime
-app.debug = True
-
 headers = {
     'Connection': 'keep-alive',
     'Cache-Control': 'max-age=0',
