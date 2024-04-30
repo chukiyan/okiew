@@ -2,7 +2,6 @@ import requests
 from time import sleep
 import time
 from datetime import datetime
-app = Flask(__name__)
 app.debug = True
 
 headers = {
